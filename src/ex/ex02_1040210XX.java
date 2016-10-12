@@ -1,8 +1,7 @@
-锘縫ackage ex;
 /*
- * Topic: 杓稿叆涓�姝ｆ暣鏁革紝鍒ゆ柗鍏跺鍋舵暩
+ * Topic: 盢硈﹃计(–计 0~9)块璸衡ㄤ㎝ㄒ块 12345块15 (1+2+3+4+5=15)
  * Date: 2016/10/12
- * Author: 1040210XX 鍛ㄦ案鎸�佸斧
+ * Author: 1040210XX ㏄ッρ畍
  */
 
 import java.util.Scanner;
@@ -13,17 +12,16 @@ public class ex02_1040210XX {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		int a;
-		a =scanner.nextInt( );
-		
+		a = scanner.nextInt();
+		System.out.println(a);
 		if(a%2!=0)
 		{
-			System.out.println("濂囨暩");
+			System.out.println("计");
 		}
 		else
 		{
-			System.out.println("鍋舵暩");
+			System.out.println("案计");
 		}
-
 	}
 
 }
