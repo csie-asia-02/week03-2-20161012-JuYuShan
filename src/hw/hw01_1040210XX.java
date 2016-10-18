@@ -1,14 +1,46 @@
-package hw;
 /*
- * Topic: И⌡╩Х╘╠Е┘╛Е▐╦Г └Х╗┬Х╡╩Ф√╧Е╪▐Ф≤╞ 600Е┬├И░≤Д╩╔Д╦▀Ф╞▐Е┬├И░≤0.5Е┘┐О╪⌡	600~1200Е┬├И░≤И⌡╩Х╘╠Х╡╩Д╩╔9Ф┼≤Х╗┬Г╝≈О╪⌡1200Е┬├И░≤Д╩╔Д╦┼И⌡╩Х╘╠Х╡╩Д╩╔79Ф┼≤Х╗┬Г╝≈О╪▄Х╝⌠Д╫©Г■╗Х─┘Х╪╦Е┘╔Е√╝Ф°┬Д╫©Г■╗Е┬├Ф≥┌И√⌠(Е┬├И░≤)О╪▄Г╝≈Е┤╨И⌡╩Х╘╠Х╡╩(Е┘┐)
+ * Topic: ╧q╦э╓╫╔q╙╨╜p╤O╓Х╕║╛O 600╓юда╔H╓U╗C╓юда0.5╓╦║F	600~1200╓юда╧q╦э╤O╔H9╖И╜p╨Б║F1200╓юда╔H╓W╧q╦э╤O╔H79╖И╜p╨Б║AеЩ╗о╔н╙л©И╓JЁФ╓К╗о╔н╓ю╝и╤║(╓юда)║A╨Б╔X╧q╦э╤O(╓╦)
  * Date: 2016/10/12
- * Author: 1040210XX Е▒╗Ф╟╦Ф▄╞Х─│Е╦╚
+ * Author: 105021085 ╘P╓_╦╘
  */
+import java.util.Scanner;
+
+
 public class hw01_1040210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner b = new Scanner(System.in);
+		int month,minute;
+		
+		System.out.println("╫п©И╓J╓К╔В:");
+		month=b.nextInt();
+		if(month<12)
+		{
+			System.out.println("╓К");
+		}
+			
+		else
+		{
+			System.out.println("╫п©И╓J╔©╫T╓К╔В");
+		}
+		System.out.println("╫п©И╓J╗о╔н╝и╤║(╓юда):");
+		minute=b.nextInt();
+		
+		if(	minute<600)
+		{
+			
+			System.out.println("╧q╦э╤O╛╟:"+minute*0.5+"╓╦");
+		}
+		else if(minute>=600||minute<=1200)
+		{
+			System.out.println("╧q╦э╤O╛╟:"+(minute*0.5)*0.9+"╓╦");
+		}
+		
+		else
+		{
+			System.out.println("╧q╦э╤O╛╟:"+(minute*0.5)*0.79+"╓╦");
+		}
 	}
 
 }
