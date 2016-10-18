@@ -1,3 +1,8 @@
+/*
+ * Topic: 块タ俱计耞ㄤ案计
+ * Date: 2016/10/12
+ * Author:105021085 ㏄俯
+ */
 
 import java.util.Scanner;
 
@@ -8,14 +13,14 @@ public class ex02_1040210XX {
 		Scanner scanner = new Scanner(System.in);
 		int a;
 		a = scanner.nextInt();
-		System.out.println(a);
+		
 		if(a%2!=0)
 		{
-			System.out.println("计");
+			System.out.println("odd");
 		}
 		else
 		{
-			System.out.println("案计");
+			System.out.println("even");
 		}
 	}
 
