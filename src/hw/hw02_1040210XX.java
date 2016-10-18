@@ -1,14 +1,33 @@
-package hw;
 /*
- * Topic: å·²çŸ¥ç”·ç”Ÿæ¨™æº–é«”é‡ï¼(èº«é«˜ï¼80 )*0.7ï¼›å¥³ç”Ÿæ¨™æº–é«”é‡ï¼(èº«é«˜ï¼70)*0.6ï¼›è©¦å¯«ä¸€å€‹ç¨‹å¼å¯ä»¥è¨ˆç®—ç”·ç”Ÿå¥³ç”Ÿçš„æ¨™æº–é«”é‡ã€‚(è¼¸å…¥å…©å€‹æ•¸å€¼ï¼Œä¾åºä»£è¡¨ç‚ºèº«é«˜åŠæ€§åˆ¥ï¼ˆ1ä»£è¡¨ç”·æ€§ï¼›2ä»£è¡¨å¥³æ€§ï¼‰)
+ * Topic: ¤wª¾¨k¥Í¼Ğ·ÇÅé­«¡×(¨­°ª¡Ğ80 )*0.7¡F¤k¥Í¼Ğ·ÇÅé­«¡×(¨­°ª¡Ğ70)*0.6¡F¸Õ¼g¤@­Óµ{¦¡¥i¥H­pºâ¨k¥Í¤k¥Íªº¼Ğ·ÇÅé­«¡C(¿é¤J¨â­Ó¼Æ­È¡A¨Ì§Ç¥Nªí¬°¨­°ª¤Î©Ê§O¡]1¥Nªí¨k©Ê¡F2¥Nªí¤k©Ê¡^)
  * Date: 2016/10/12
- * Author: 1040210XX å‘¨æ°¸æŒ¯è€å¸«
+ * Author: 105021085 ©P¤_¸©
  */
+import java.util.Scanner;
+
+
 public class hw02_1040210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner a = new Scanner(System.in);		
+		int sex,height;
+		
+		System.out.println("½Ğ¿é¤J©Ê§O:1=¨k¡A2=¤k:");
+		 sex=a.nextInt();		 
+		 
+		System.out.println("½Ğ¿é¤J¨­°ª:");
+		height=a.nextInt();
+		
+		if(sex==1)
+		{
+			System.out.println("¨k¥Í¼Ğ·ÇÅé­«:"+(height-80 )*0.7);
+		}
+		else if(sex==2)
+		{
+			System.out.println("¥Í¼Ğ·ÇÅé­«:"+(height-70 )*0.6);
+		}
+		
 	}
 
 }
