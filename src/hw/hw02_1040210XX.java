@@ -11,13 +11,14 @@ public class hw02_1040210XX {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner a = new Scanner(System.in);		
-		int sex,height;
+		int sex;
+		float height;
 		
 		System.out.println("請輸入性別:1=男，2=女:");
 		 sex=a.nextInt();		 
 		 
 		System.out.println("請輸入身高:");
-		height=a.nextInt();
+		height=a.nextFloat();
 		
 		if(sex==1)
 		{
@@ -25,7 +26,11 @@ public class hw02_1040210XX {
 		}
 		else if(sex==2)
 		{
-			System.out.println("生標準體重:"+(height-70 )*0.6);
+			System.out.println("女生標準體重:"+(height-70 )*0.6);
+		}
+		else
+		{
+			System.out.println("ERROR");
 		}
 		
 	}
