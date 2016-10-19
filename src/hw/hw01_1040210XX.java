@@ -11,19 +11,9 @@ public class hw01_1040210XX {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner b = new Scanner(System.in);
-		int month,minute;
+		int minute;
 		
-		System.out.println("請輸入月份:");
-		month=b.nextInt();
-		if(month<12)
-		{
-			System.out.println("月");
-		}
-			
-		else
-		{
-			System.out.println("請輸入正確月份");
-		}
+
 		System.out.println("請輸入使用時間(分鐘):");
 		minute=b.nextInt();
 		
