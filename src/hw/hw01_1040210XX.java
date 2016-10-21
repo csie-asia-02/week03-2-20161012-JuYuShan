@@ -12,24 +12,22 @@ public class hw01_1040210XX {
 		// TODO Auto-generated method stub
 		Scanner b = new Scanner(System.in);
 		int minute;
-		
-
-		System.out.println("請輸入使用時間(分鐘):");
+		System.out.println("輸入單月通話時間(分鐘):");
 		minute=b.nextInt();
-		
+	
 		if(	minute<600)
 		{
 			
-			System.out.println("電話費為:"+minute*0.5+"元");
+			System.out.println("電話費(元):"+minute*0.5+"元");
 		}
-		else if(minute>=600||minute<=1200)
+		else if(minute>=600&&minute<=1200)
 		{
-			System.out.println("電話費為:"+(minute*0.5)*0.9+"元");
+			System.out.println("電話費(元):"+(minute*0.5)*0.9+"元");
 		}
 		
 		else
 		{
-			System.out.println("電話費為:"+(minute*0.5)*0.79+"元");
+			System.out.println("電話費(元):"+(minute*0.5)*0.79+"元");
 		}
 	}
 
