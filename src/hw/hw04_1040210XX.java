@@ -10,17 +10,18 @@ public class hw04_1040210XX {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in) ;
-		int x = 0;
-		System.out.print("請輸入一個正整數: ");
+		int x, i ,k = 0,s=0 ; 
+		System.out.print("請輸入一個正整數:");
 		x = scn.nextInt();	
-		int i ,k = 0,s=0 ; 
+		
+		
 		for ( i=1; i<=x; i++) 
 		{
 			k=i*(i+1);
 			s=k+s;
 		}
 		
-		System.out.println(s);
+		System.out.println("1*(1+1)+ … + "+x +"*"+"("+x+"+"+"1"+")"+"="+s);
 	}
 
 	}	
