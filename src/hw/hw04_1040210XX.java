@@ -1,14 +1,28 @@
-package hw;
+import java.util.Scanner;
+
 /*
- * Topic: è®“ä½¿ç”¨è€…è¼¸å…¥ä¸€æ­£æ•´æ•¸nï¼Œè¨ˆç®—1*(1+1) + 2*(2+1) + 3*(3+1) + â€¦ + n*(n+1)ä¸¦è¼¸å‡ºçµæœ
+ * Topic: Åı¨Ï¥ÎªÌ¿é¤J¤@¥¿¾ã¼Æn¡A­pºâ1*(1+1) + 2*(2+1) + 3*(3+1) + ¡K + n*(n+1)¨Ã¿é¥Xµ²ªG
  * Date: 2016/10/12
- * Author: 1040210XX å‘¨æ°¸æŒ¯è€å¸«
+ * Author:105021085 ©P¤_¸©
  */
-public class hw01_1040210XX {
+public class hw04_1040210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in) ;
+		int x = 0;
+		System.out.print("½Ğ¿é¤J¤@­Ó¥¿¾ã¼Æ: ");
+		x = scn.nextInt();	
+		int i ,k = 0,s=0 ; 
+		for ( i=1; i<=x; i++) 
+		{
+			k=i*(i+1);
+			s=k+s;
+		}
+		
+		System.out.println(s);
 	}
 
-}
+	}	
+
+
